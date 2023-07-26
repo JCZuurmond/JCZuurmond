@@ -26,6 +26,10 @@ soda_tree.add(f"🚀 [bold link=https://github.com/sodadata/soda-spark]soda-spar
 soda_tree.add(f"✨ [bold link=https://github.com/sodadata/soda-core]soda-core[/] \t\t - Soda core")
 soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t\t - Soda documentation")
 
+data_science_tree = python_tree.add("data science tools")
+data_science_tree.add(f"✨ [bold link=https://github.com/koaning/scikit-lego]scikit-lego[/] \t\t - Extra blocks for scikit-learn pipelines")
+data_science_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/smelly-rats]smelly-rats[/] \t\t - scikit-learn implementation of paper about IPLS")
+
 console.print(tree)
 console.print("")
 
