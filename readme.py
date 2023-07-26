@@ -39,12 +39,13 @@ misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-open
 
 knowledge_sharing_tree = tree.add("📚 Knowledge sharing")
 
-talks_tree = knowledge_sharing_tree.add("🎙 Spoken")
-talks_tree.add(f"[bold link=https://www.youtube.com/watch?v=IJQ-PpSU1kY]PyData Global (2021)[/] \t  - Wisdom of the Crowd: Amplifying Human Intelligence With AI")
+legend_tree = knowledge_sharing_tree.add("legend")
+legend_tree.add("🎙 = spoken", )
+legend_tree.add("✏️ = written")
 
-writing_tree = knowledge_sharing_tree.add("✏️ Written")
-writing_tree.add(f"[bold link=https://scripties.uba.uva.nl/search?id=record_27376]University of Amsterdam[/]   - Height estimation from aerial imagery with stereo CNNs")
-writing_tree.add(f"[bold link=https://godatadriven.com/blog/dbts-missing-software-engineering-piece-unit-tests/]GoDataDriven blog[/] \t  - dbt’s missing software engineering piece: unit tests")
+knowledge_sharing_tree.add(f"🎙 [bold link=https://www.youtube.com/watch?v=IJQ-PpSU1kY]PyData Global (2021)[/] \t  - Wisdom of the Crowd: Amplifying Human Intelligence With AI")
+knowledge_sharing_tree.add(f"✏️ [bold link=https://scripties.uba.uva.nl/search?id=record_27376]University of Amsterdam[/] - Height estimation from aerial imagery with stereo CNNs")
+knowledge_sharing_tree.add(f"✏️ [bold link=https://godatadriven.com/blog/dbts-missing-software-engineering-piece-unit-tests/]GoDataDriven blog[/] \t   - dbt’s missing software engineering piece: unit tests")
 
 console.print(tree)
 console.print("")
