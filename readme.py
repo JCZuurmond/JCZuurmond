@@ -19,7 +19,8 @@ dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/spark-utils]spark-util
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-core[/] \t\t - dbt core")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-external-tables[/] \t - dbt macros to stage external sources")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/docs.getdbt.com]docs.getdbt.com[/] \t - dbt documentation")
-dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-sqlserver]dbt-sqlserver[/] \t - dbt adapter for SQL server")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-sqlserver]dbt-sqlserver[/] \t - dbt adapter for Microsoft SQL server")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-synapse]dbt-synapse[/] \t\t - dbt adapter for Microsoft Synapse")
 
 
 soda_tree = python_tree.add("[bold link=https://www.soda.io/]Soda[/] - data quality tool")
