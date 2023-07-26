@@ -34,6 +34,7 @@ data_science_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/smelly-rat
 
 misc_tree = python_tree.add("Miscellaneous")
 misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/dotfiles]dotfiles[/] \t\t - My settings files")
+misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/pyjpeg]pyjpeg[/] \t\t - Python implementation of the JPEG algorithm")
 misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-openai[/] \t\t - Emacs integration with OpenAI")
 
 knowledge_sharing_tree = tree.add("📚 Knowledge sharing")
