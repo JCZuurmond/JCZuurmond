@@ -34,6 +34,14 @@ misc_tree = python_tree.add("Miscellaneous")
 misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/dotfiles]dotfiles[/] \t\t - My settings files")
 misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-openai[/] \t\t - Emacs integration with OpenAI")
 
+knowledge_sharing_tree = tree.add("📚 Knowledge sharing")
+
+talks_tree = knowledge_sharing_tree.add("🎙 Talks")
+talks_tree.add(f"[bold link=https://www.youtube.com/watch?v=IJQ-PpSU1kY]PyData Global (2021)[/] \t  - Wisdom of the Crowd: Amplifying Human Intelligence With AI")
+
+blogs_tree = knowledge_sharing_tree.add("📄 Blog posts")
+blogs_tree.add(f"[bold link=https://godatadriven.com/blog/dbts-missing-software-engineering-piece-unit-tests/]GoDataDriven blog[/] \t  - dbt’s missing software engineering piece: unit tests")
+
 console.print(tree)
 console.print("")
 
