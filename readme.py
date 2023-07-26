@@ -8,7 +8,7 @@ tree = Tree("😄 [link=https://www.linkedin.com/in/cor-zuurmond/]Cor Zuurmond[/
 python_tree = tree.add("📦 Open Source")
 
 legend_tree = python_tree.add("legend")
-legend_tree.add("🚀 = maintainer", )
+legend_tree.add("🚀 = creator and/or maintainer", )
 legend_tree.add("✨ = contributor")
 
 dbt_tree = python_tree.add("[bold link=https://www.getdbt.com/]dbt[/] - data transformation tool")
@@ -19,6 +19,12 @@ dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-core[/] 
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-external-tables[/] \t - dbt macros to stage external sources")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/docs.getdbt.com]docs.getdbt.com[/] \t - dbt documentation")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-sqlserver]dbt-sqlserver[/] \t - dbt adapter for SQL server")
+
+
+soda_tree = python_tree.add("[bold link=https://www.soda.io/]Soda[/] - data quality tool")
+soda_tree.add(f"🚀 [bold link=https://github.com/sodadata/soda-spark]soda-spark[/] \t\t - PySpark library for Soda")
+soda_tree.add(f"✨ [bold link=https://github.com/sodadata/soda-core]soda-core[/] \t\t - Soda core")
+soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t\t - Soda documentation")
 
 console.print(tree)
 console.print("")
