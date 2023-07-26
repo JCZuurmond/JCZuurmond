@@ -15,6 +15,7 @@ dbt_tree = python_tree.add("[bold link=https://www.getdbt.com/]dbt[/] - data tra
 dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/dbt-excel]dbt-excel[/] \t\t - April fools' joke about a [bold link=https://dbt-excel.com/]dbt adapter for Excel[/]")
 dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/pytest-dbt-core]pytest-dbt-core[/] \t - Pytest plugin for dbt core")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-spark/]dbt-spark[/] \t\t - dbt adapter for Spark")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/spark-utils]spark-utils[/] \t\t - Utility functions for dbt-spark")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-core[/] \t\t - dbt core")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-external-tables[/] \t - dbt macros to stage external sources")
 dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/docs.getdbt.com]docs.getdbt.com[/] \t - dbt documentation")
