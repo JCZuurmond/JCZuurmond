@@ -3,10 +3,22 @@ from rich.tree import Tree
 
 console = Console(record=True, width=100)
 
-tree = Tree("😄 [link=https://www.linkedin.com/in/cor-zuurmond/]Cor Zuurmond", guide_style="bold bright_black")
+tree = Tree("😄 [link=https://www.linkedin.com/in/cor-zuurmond/]Cor Zuurmond[/]", style="bright_black", guide_style="bold bright_black")
 
-python_tree = tree.add("📦 Open Source Packages", guide_style="bright_black")
-python_tree.add("[bold link=https://github.com/godatadriven/dbt-excel]dbt-excel[/]           - [bright_black]simple bulk labelling interface")
+python_tree = tree.add("📦 Open Source")
+
+legend_tree = python_tree.add("legend")
+legend_tree.add("🚀 = maintainer", )
+legend_tree.add("✨ = contributor")
+
+dbt_tree = python_tree.add("[bold link=https://www.getdbt.com/]dbt[/] - data transformation tool")
+dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/dbt-excel]dbt-excel[/] \t\t - April fools' joke about a [bold link=https://dbt-excel.com/]dbt adapter for Excel[/]")
+dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/pytest-dbt-core]pytest-dbt-core[/] \t - pytest plugin for dbt core")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-spark/]dbt-spark[/] \t\t - dbt adapter for Spark")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-core[/] \t\t - dbt core")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/dbt-core/]dbt-external-tables[/] \t - dbt macros to stage external sources")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-labs/docs.getdbt.com]docs.getdbt.com[/] \t - dbt documentation")
+dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-sqlserver]dbt-sqlserver[/] \t - dbt adapter for SQL server")
 
 console.print(tree)
 console.print("")
