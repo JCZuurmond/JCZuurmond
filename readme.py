@@ -30,6 +30,10 @@ data_science_tree = python_tree.add("data science tools")
 data_science_tree.add(f"✨ [bold link=https://github.com/koaning/scikit-lego]scikit-lego[/] \t\t - Extra blocks for scikit-learn pipelines")
 data_science_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/smelly-rats]smelly-rats[/] \t\t - scikit-learn implementation of paper about IPLS")
 
+misc_tree = python_tree.add("Miscellaneous")
+misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/dotfiles]dotfiles[/] \t\t - My settings files")
+misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-openai[/] \t\t - Emacs integration with OpenAI")
+
 console.print(tree)
 console.print("")
 
