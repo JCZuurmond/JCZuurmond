@@ -11,6 +11,10 @@ legend_tree = python_tree.add("legend")
 legend_tree.add("🚀 = creator and/or maintainer", )
 legend_tree.add("✨ = contributor")
 
+databricks_tree = python_tree.add("[bold link=https://github.com/databrickslabs/]Databricks labs[/] \t     - Labs projects to accelerate use cases on the Databricks")
+databricks_tree.add("✨ [bold link=https://github.com/databrickslabs/ucx]UCX[/] \t\t\t - Your best companion for upgrading to Unity Catalog")
+databricks_tree.add("✨ [bold link=https://github.com/databrickslabs/lsql]lsq[/] \t\t\t - Lightweight SQL execution wrapper")
+
 dbt_tree = python_tree.add("[bold link=https://www.getdbt.com/]dbt[/] - data transformation tool")
 dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/dbt-excel]dbt-excel[/] \t\t - April fools' joke about a [bold link=https://dbt-excel.com/]dbt adapter for Excel[/]")
 dbt_tree.add(f"🚀 [bold link=https://github.com/godatadriven/pytest-dbt-core]pytest-dbt-core[/] \t - Pytest plugin for dbt core")
@@ -26,7 +30,7 @@ dbt_tree.add(f"✨ [bold link=https://github.com/dbt-msft/dbt-synapse]dbt-synaps
 soda_tree = python_tree.add("[bold link=https://www.soda.io/]Soda[/] - data quality tool")
 soda_tree.add(f"🚀 [bold link=https://github.com/sodadata/soda-spark]soda-spark[/] \t\t - PySpark library for Soda")
 soda_tree.add(f"✨ [bold link=https://github.com/sodadata/soda-core]soda-core[/] \t\t - Soda core")
-soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t\t - Soda documentation")
+soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t - Soda documentation")
 
 data_science_tree = python_tree.add("data science tools")
 data_science_tree.add(f"✨ [bold link=https://github.com/koaning/scikit-lego]scikit-lego[/] \t\t - Extra blocks for scikit-learn pipelines")
@@ -35,7 +39,7 @@ data_science_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/smelly-rat
 misc_tree = python_tree.add("Miscellaneous")
 misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/dotfiles]dotfiles[/] \t\t - My settings files")
 misc_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/pyjpeg]pyjpeg[/] \t\t - Python implementation of the JPEG algorithm")
-misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-openai[/] \t\t - Emacs integration with OpenAI")
+misc_tree.add(f"✨ [bold link=https://github.com/emacs-openai/openai]emacs-openai[/] \t - Emacs integration with OpenAI")
 
 knowledge_sharing_tree = tree.add("📚 Knowledge sharing")
 
@@ -45,7 +49,7 @@ legend_tree.add("✏️ = written")
 
 knowledge_sharing_tree.add(f"🎙 [bold link=https://www.youtube.com/watch?v=IJQ-PpSU1kY]PyData Global (2021)[/] \t  - Wisdom of the Crowd: Amplifying Human Intelligence With AI")
 knowledge_sharing_tree.add(f"✏️ [bold link=https://scripties.uba.uva.nl/search?id=record_27376]University of Amsterdam[/] - Height estimation from aerial imagery with stereo CNNs")
-knowledge_sharing_tree.add(f"✏️ [bold link=https://godatadriven.com/blog/dbts-missing-software-engineering-piece-unit-tests/]GoDataDriven blog[/] \t   - dbt’s missing software engineering piece: unit tests")
+knowledge_sharing_tree.add(f"✏️ [bold link=https://godatadriven.com/blog/dbts-missing-software-engineering-piece-unit-tests/]GoDataDriven blog[/] \t  - dbt’s missing software engineering piece: unit tests")
 
 console.print(tree)
 console.print("")
