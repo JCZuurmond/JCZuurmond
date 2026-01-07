@@ -32,6 +32,10 @@ soda_tree.add(f"🚀 [bold link=https://github.com/sodadata/soda-spark]soda-spar
 soda_tree.add(f"✨ [bold link=https://github.com/sodadata/soda-core]soda-core[/] \t\t - Soda core")
 soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t - Soda documentation")
 
+protein_tree = python_tree.add("[bold link=https://github.com/ProteinGym]ProteinGym[/] - benchmarks for protein fitness prediction and design")
+protein_tree.add(f"✨ [bold link=https://github.com/ProteinGym/proteingym-base]proteingym-base[/] \t - Base package for ProteinGym")
+protein_tree.add(f"✨ [bold link=https://github.com/ProteinGym/proteingym-benchmark]proteingym-benchmark[/] - Benchmarks for protein fitness prediction")
+
 data_science_tree = python_tree.add("data science tools")
 data_science_tree.add(f"✨ [bold link=https://github.com/koaning/scikit-lego]scikit-lego[/] \t\t - Extra blocks for scikit-learn pipelines")
 data_science_tree.add(f"🚀 [bold link=https://github.com/JCZuurmond/smelly-rats]smelly-rats[/] \t\t - scikit-learn implementation of paper about IPLS")
