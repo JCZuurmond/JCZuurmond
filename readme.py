@@ -34,7 +34,7 @@ soda_tree.add(f"✨ [bold link=https://github.com/sodadata/docs]docs[/] \t\t - S
 
 protein_tree = python_tree.add("[bold link=https://github.com/ProteinGym]ProteinGym[/] - benchmarks for protein fitness prediction and design")
 protein_tree.add(f"✨ [bold link=https://github.com/ProteinGym/proteingym-base]proteingym-base[/] \t - Base package for ProteinGym")
-protein_tree.add(f"✨ [bold link=https://github.com/ProteinGym/proteingym-benchmark]proteingym-benchmark[/] - Benchmarks for protein fitness prediction")
+protein_tree.add(f"✨ [bold link=https://github.com/ProteinGym/proteingym-benchmark]proteingym-benchmark[/]  - Benchmarks for protein fitness prediction")
 
 data_science_tree = python_tree.add("data science tools")
 data_science_tree.add(f"✨ [bold link=https://github.com/koaning/scikit-lego]scikit-lego[/] \t\t - Extra blocks for scikit-learn pipelines")
